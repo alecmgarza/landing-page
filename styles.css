@@ -9,11 +9,41 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header h1 {
     font-size: 24px;
+}
+
+.sub-header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 32px;
+}
+
+.sub-header-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.sub-header-text p {
+    font-size: 18px;
+}
+
+.sub-header-image {
+    padding: 100px 200px 100px 200px;
+    background-color: gray
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 ul {
