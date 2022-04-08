@@ -64,8 +64,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
-    gap: 16px;
+    padding: 64px;
+    gap: 32px;
+}
+
+.random-info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .random-info-content {
@@ -74,6 +80,37 @@ a {
 }
 
 .content {
-    width: 200px;
+    width: 150px;
     text-align: center;
+    padding: 32px;
+}
+
+img {
+    border: solid blue;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 64px;
+}
+
+.quote-text {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    background-color: #E5E7EB;
+    font-size: 24px;
+    text-align: right;
 }
